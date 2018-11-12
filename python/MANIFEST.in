@@ -1,0 +1,2 @@
+# Include jar files
+include dirty_cat_spark/jars/*.jar
