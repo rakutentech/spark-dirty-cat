@@ -101,4 +101,4 @@ Contributions from:
 
 
 Corporate (Code) Contributors:
-* Rakuten Institut of Technology
+* Rakuten Institute of Technology
