@@ -252,6 +252,7 @@ class SimilarityEncoderModel private[dirty_cat] (override val uid: String,
     val vocabularyLabels = vocabulary.map(_._1).toSeq
     val vocabularyReferenceLabels = vocabularyReference.toArray.map(_._1)
 
+
     val similarityValues = $(similarityType) match {
       case SimilarityEncoder.nGram => StringSimilarity.getNGramSimilaritySeq(vocabularyLabels, vocabularyReferenceLabels, $(nGramSize))
       case SimilarityEncoder.leverstein => StringSimilarity.getLevenshteinSimilaritySeq(vocabularyLabels, vocabularyReferenceLabels)

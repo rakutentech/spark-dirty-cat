@@ -90,14 +90,6 @@ test("fit"){
   val dataframeEncoded = encoderModel.transform(dataframe)
 
 
-  // intercept[SparkException] {
-  //    val encoder = (new SimilarityEncoder()
-  //      .setInputCol("name")
-  //      .setOutputCol("nameEncoded")
-  //      .setSimilarityType("XXX"))
-  // }
-
-
   }
 
 
@@ -126,12 +118,6 @@ test("fit"){
 
   }
 
-// test("SimilarityEncoderNulls") {}
-
-
-// test("SimilarityEncoderUnseen") {}
-//
-//  test("SimilarityEncoderModel read/write") {}
 }
 
 
