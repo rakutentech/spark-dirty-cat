@@ -54,7 +54,7 @@ jupyter kernelspec list
 
 To submit your spark application, run 
 ```{.bash}
-spark-submit --master local[3]  --jars target/scala-2.11/spam_scorer_2.11-1.0.jar YOUR_APPLICATION
+spark-submit --master local[3]  --jars target/scala-2.11/dirty_cat_2.11-1.0.jar YOUR_APPLICATION
 ```
 
 
